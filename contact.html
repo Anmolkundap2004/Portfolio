@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contact Form</title>
     <style>
+      /* Existing styles remain unchanged */
       body {
         font-family: Arial, sans-serif;
         background-color: #f4f4f4;
@@ -18,27 +19,23 @@
         width: 40%;
         margin: 0 auto;
       }
-
       .contact-form h2 {
         text-align: center;
         color: #003f5c;
       }
       header {
-        background: #2a3d55; /* Professional dark navy blue */
+        background: #2a3d55;
         color: #f5f5f5;
         padding: 20px;
         text-align: center;
       }
-
       header h1 {
         margin: 0;
         font-size: 2.5em;
       }
-
       header nav {
-        margin-top: 15px; /* Space added below h1 */
+        margin-top: 15px;
       }
-
       header nav a {
         color: #f5f5f5;
         margin: 0 10px;
@@ -49,11 +46,9 @@
         transition: background 0.3s ease;
         font-size: 1.5em;
       }
-
       header nav a:hover {
-        background: #3c5a7c; /* Slight hover effect with darker navy */
+        background: #3c5a7c;
       }
-
       .contact-form input[type="text"],
       .contact-form input[type="email"],
       .contact-form input[type="tel"] {
@@ -73,6 +68,21 @@
       }
       .contact-form button:hover {
         background-color: #ff6f61;
+      }
+      .data-table {
+        margin: 20px auto;
+        width: 80%;
+        border-collapse: collapse;
+        text-align: center;
+      }
+      .data-table th,
+      .data-table td {
+        border: 1px solid #ddd;
+        padding: 10px;
+      }
+      .data-table th {
+        background-color: #003f5c;
+        color: white;
       }
     </style>
   </head>
@@ -112,6 +122,12 @@
         />
         <button type="submit" name="submit">Submit</button>
       </form>
+      <form action="contact_form.php" method="POST">
+        <button type="submit" name="show">Show Entries</button>
+      </form>
+    </div>
+    <div id="data-display">
+      <!-- Table will be displayed here -->
     </div>
   </body>
 </html>
