@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Resume - Anmol Kundap</title>
+    <style>
+      /* General Styles */
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+        color: #333;
+        margin: 0;
+        padding: 0;
+        line-height: 1.6;
+      }
+      header nav {
+        margin-top: 15px; /* Space added below h1 */
+      }
+
+      header nav a {
+        color: #f5f5f5;
+        margin: 0 10px;
+        text-decoration: none;
+        font-weight: bold;
+        padding: 10px 15px;
+        border-radius: 5px;
+        transition: background 0.3s ease;
+      }
+
+      header nav a:hover {
+        background: #3c5a7c; /* Slight hover effect with darker navy */
+      }
+
+      header {
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        padding: 20px 0;
+      }
+
+      h1 {
+        margin: 0;
+        font-size: 2.5em;
+      }
+
+      /* Container Styles */
+      .container {
+        width: 80%;
+        margin: 0 auto;
+      }
+
+      /* Section Styles */
+      section {
+        margin: 40px 0;
+        padding: 20px;
+        background-color: #fff;
+        border-radius: 8px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      }
+
+      .section-title {
+        color: #333;
+        border-bottom: 2px solid #333;
+        padding-bottom: 10px;
+        margin-bottom: 20px;
+        font-size: 1.8em;
+      }
+
+      .contact-info {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        margin-bottom: 20px;
+      }
+
+      .contact-info img {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        margin-right: 20px;
+        object-fit: cover; /* Ensures the image fits well inside the circle */
+      }
+
+      .contact-info div {
+        font-size: 1.1em;
+      }
+
+      /* Resume Content Styles */
+      .resume-content {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+      }
+
+      .resume-content ul {
+        list-style: none;
+        padding-left: 0;
+      }
+
+      .resume-content li {
+        margin-bottom: 10px;
+      }
+
+      .skills ul,
+      .experience ul,
+      .education ul {
+        list-style: none;
+        padding-left: 0;
+      }
+
+      .skills li,
+      .experience li,
+      .education li {
+        margin-bottom: 10px;
+      }
+
+      /* Footer */
+      footer {
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        padding: 10px 0;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Header with Name -->
+    <header>
+      <h1>Anmol Kundap</h1>
+      <p>Software Engineer</p>
+      <nav>
+        <a href="/index.html">Home</a>
+        <a href="/resume.html">Resume</a>
+        <a href="/bio.html">Bio-data</a>
+
+        <a href="/contact.html">Contact</a>
+      </nav>
+    </header>
+
+    <div class="container">
+      <!-- Contact Information -->
+      <section>
+        <h2 class="section-title">Contact Information</h2>
+        <div class="contact-info">
+          <img src="/static/profile.jpg" alt="Anmol Kundap" />
+          <div>
+            <p>Email: 4bd22cs017@bietdvg.edu</p>
+            <p>Phone: +91 9591132610</p>
+            <p>Location: Davangere, Karnataka</p>
+            <p>LinkedIn: linkedin.com/in/anmol-kundap-3b4303253/</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Professional Summary -->
+      <section>
+        <h2 class="section-title">Professional Summary</h2>
+        <p>
+          I am a passionate and dedicated web developer in creating
+          user-friendly and aesthetically pleasing websites. My expertise
+          includes front-end development, UX/UI design, and problem-solving with
+          creative solutions. I thrive in dynamic environments and am always
+          looking to enhance my skill set to stay ahead of industry trends.
+        </p>
+      </section>
+
+      <!-- Skills Section -->
+      <section>
+        <h2 class="section-title">Skills</h2>
+        <div class="resume-content skills">
+          <div>
+            <ul>
+              <li>HTML5, CSS3</li>
+              <li>JavaScript, jQuery</li>
+              <li>Responsive Web Design</li>
+              <li>React.js, Angular</li>
+              <li>Progrmming in C</li>
+            </ul>
+          </div>
+          <div>
+            <ul>
+              <li>UI/UX Design</li>
+              <li>PHP, MySQL</li>
+              <li>Node.js</li>
+              <li>Version Control (Git, GitHub)</li>
+              <li>Programming in Python</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- Education Section -->
+      <section>
+        <h2 class="section-title">Education</h2>
+        <div class="resume-content education">
+          <div>
+            <h3>
+              Pursuing Bachelor of Engineering in Computer Science and
+              Engineering
+            </h3>
+            <p>Bapuji Institute of Engineering and Technology | 2022 - 2026</p>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+      <p>© 2024 Anmol Kundap | All Rights Reserved</p>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bio-data - Anmol Kundap</title>
+    <style>
+      /* General Styles */
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #fafafa; /* Light grey background */
+        color: #333; /* Dark text for readability */
+        margin: 0;
+        padding: 0;
+        line-height: 1.6;
+      }
+
+      header {
+        background-color: #ffebcd; /* Light beige background for the header */
+        color: #333;
+        text-align: center;
+        padding: 20px 0;
+      }
+
+      h1 {
+        margin: 0;
+        font-size: 2.5em;
+        color: #4a4a4a; /* Darker text color */
+      }
+
+      p {
+        font-size: 1.2em;
+        color: #666; /* Soft text color for paragraph */
+      }
+      header nav {
+        margin-top: 15px; /* Space added below h1 */
+      }
+
+      header nav a {
+        color: #050505;
+        margin: 0 10px;
+        text-decoration: none;
+        font-weight: bold;
+        padding: 10px 15px;
+        border-radius: 5px;
+        transition: background 0.3s ease;
+      }
+
+      header nav a:hover {
+        background: #3c5a7c; /* Slight hover effect with darker navy */
+      }
+
+      /* Container Styles */
+      .container {
+        width: 80%;
+        margin: 0 auto;
+      }
+
+      /* Section Styles */
+      section {
+        margin: 40px 0;
+        padding: 20px;
+        background-color: #ffffff; /* White background for sections */
+        border-radius: 8px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      }
+
+      .section-title {
+        color: #4a4a4a;
+        border-bottom: 2px solid #f4a261; /* Subtle color for section title */
+        padding-bottom: 10px;
+        margin-bottom: 20px;
+        font-size: 1.8em;
+      }
+      li {
+        font-size: 1.8em;
+      }
+
+      .contact-info {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        margin-bottom: 20px;
+      }
+
+      .contact-info img {
+        width: 250px; /* Larger image size */
+        height: auto;
+        border-radius: 15px; /* Curved rectangle shape */
+        margin-right: 20px;
+        object-fit: cover; /* Ensures the image fits well inside the container */
+      }
+
+      .contact-info div {
+        font-size: 1.1em;
+        color: #444; /* Slightly lighter text */
+      }
+
+      /* Bio-data Content Styles */
+      .bio-content {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+      }
+
+      .bio-content ul {
+        list-style: none;
+        padding-left: 0;
+      }
+
+      .bio-content li {
+        margin-bottom: 10px;
+      }
+
+      /* Footer */
+      footer {
+        background-color: #ffebcd; /* Light beige footer */
+        color: #333;
+        text-align: center;
+        padding: 10px 0;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Header with Name -->
+    <header>
+      <h1>Anmol Kundap</h1>
+      <p>Software Engineer</p>
+      <nav>
+        <a href="/index.html">Home</a>
+        <a href="/resume.html">Resume</a>
+        <a href="/bio.html">Bio-data</a>
+        <a href="/contact.html">Contact</a>
+      </nav>
+    </header>
+
+    <div class="container">
+      <!-- Bio-data Information -->
+      <section>
+        <h2 class="section-title">Personal Information</h2>
+        <div class="contact-info">
+          <img src="/static/profile2.jpg" alt="Anmol Kundap" />
+          <div>
+            <p>Name: Anmol Kundap</p>
+            <p>Father's Name: Komal Kundap</p>
+            <p>Date of Birth: 26th May 2004</p>
+            <p>Gender: Male</p>
+            <p>Marital Status: Single</p>
+            <p>Nationality: Indian</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Address Section -->
+      <section>
+        <h2 class="section-title">Address</h2>
+        <div class="bio-content">
+          <div>
+            <ul>
+              <li>Permanent Address:</li>
+              <li>MCC B Block, Davangere</li>
+              <li>Karnataka, India</li>
+            </ul>
+          </div>
+          <div>
+            <ul>
+              <li>Current Address:</li>
+              <li>MCC B Block Davangere</li>
+              <li>Davangere, Karnataka</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- Education Section -->
+      <section>
+        <h2 class="section-title">Education</h2>
+        <div class="bio-content">
+          <div>
+            <ul>
+              <li>2022 - 2026: B.E. in Computer Science Engineering</li>
+              <li>Bapuji Institute of Engineering and Technology</li>
+            </ul>
+          </div>
+          <div>
+            <ul>
+              <li>2018 - 2020: PUC (Pre-University College)</li>
+              <li>SIR MV PU College, Davangere</li>
+            </ul>
+          </div>
+          <div>
+            <ul>
+              <li>2020: Schooling</li>
+              <li>
+                Smt. Pushpa Shamanur Mahalingappa Residential CBSE,ICSE School,
+                Davangere
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- Skills Section -->
+      <section>
+        <h2 class="section-title">Skills</h2>
+        <div class="bio-content">
+          <div>
+            <ul>
+              <li>HTML5, CSS3</li>
+              <li>JavaScript, jQuery</li>
+              <li>React.js, Angular</li>
+              <li>Node.js</li>
+            </ul>
+          </div>
+          <div>
+            <ul>
+              <li>PHP, MySQL</li>
+              <li>UI/UX Design</li>
+              <li>Version Control (Git, GitHub)</li>
+              <li>Python Programming</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- Interests Section -->
+      <section>
+        <h2 class="section-title">Interests</h2>
+        <ul>
+          <li>Gloing to gym</li>
+          <li>Going for ride and travel</li>
+          <li>Listening to songs</li>
+          <li>Going for a walk</li>
+          <li>Problem Solving</li>
+          <li>Photography</li>
+        </ul>
+      </section>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+      <p>© 2024 Anmol Kundap | All Rights Reserved</p>
+    </footer>
+  </body>
+</html>
